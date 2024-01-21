@@ -1,8 +1,11 @@
 # myNotes 📱
 
-> Status: Developing 💻
+> Status: Developed ✅
 
-![Project image](./src/assets/mynotes-background.png)
+### Login page:
+![Project image](./mynotes/src/assets/mynotes-loginpage.png)
+### Home page:
+![Project image](./mynotes/src/assets/mynotes-login.png)
 
 myNotes is a project created with the aim of putting my studies on ReactJS with NodeJS into practice. It's an individual notebook that can only be accessed via an account. With it you can create notes and edit them, as well as categorize them with tags that match the subject. Features:
 - Login and registration page
@@ -33,6 +36,6 @@ To get the files onto your machine now, you clone the repository you added to yo
 4. Make a `pull request` to the repository of the project in question and describe exactly what has changed and any action needed to test or run it.
 
 ## Disclaimer and Copyright ©️
-Application developed through similar projects in the Ignite module of the @Rocketseat educational platform.
+Application developed through similar projects in the Explorer module of the @Rocketseat educational platform.
 
 ### Thank you in advance for any contribution!
