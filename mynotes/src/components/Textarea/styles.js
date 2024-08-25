@@ -11,6 +11,7 @@ export const Container = styled.textarea`
   margin-bottom: 8px;
   border-radius: 1rem;
   padding: 1.6rem;
+  font-family: "Roboto", sans-serif;  
 
   &::placeholder {
     color: ${({ theme }) => theme.COLORS.GRAY_300};

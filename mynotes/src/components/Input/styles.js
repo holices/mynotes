@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  background-color: ${({ theme }) => theme.COLORS.WHITE};
   color: ${({ theme }) => theme.COLORS.GRAY_300};
   margin-bottom: 8px;
   border-radius: 1rem;
@@ -14,9 +14,10 @@ export const Container = styled.div`
     height: 5.6rem;
     width: 100%;
     padding: 1.6rem;
-    color: ${({ theme }) => theme.COLORS.WHITE};
+    color: ${({ theme }) => theme.COLORS.GRAY_500};
     background: transparent;
     border: none;
+    font-family: "Roboto", sans-serif;
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};

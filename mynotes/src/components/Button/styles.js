@@ -11,6 +11,7 @@ export const Container = styled.button`
   margin-top: 1.6rem;
   border-radius: 1rem;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
 
   &:disabled {
     opacity: 0.5;

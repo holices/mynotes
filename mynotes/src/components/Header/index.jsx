@@ -33,7 +33,7 @@ export function Header() {
       </Profile>
 
       <Logout onClick={handleSignOut}>
-        <RiShutDownLine color="#03FF2D" />
+        <RiShutDownLine color="#FF8900" />
       </Logout>
     </Container>
   )

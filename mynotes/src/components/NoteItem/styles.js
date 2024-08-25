@@ -35,6 +35,8 @@ export const Container = styled.div`
     background-color: transparent;
     
     border: none;
+    font-family: "Roboto", sans-serif;
+
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};
