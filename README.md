@@ -1,11 +1,15 @@
-# myNotes 📱
+<p align="center">
+  <h1 align="center"><a href="https://food-explorer-vasc-333.netlify.app/">myNotes 📱</a></h1>
+</p>
 
 > Status: Developed ✅
 
 ### Login page:
-![Project image](./mynotes/src/assets/mynotes-loginpage.png)
+![Project image](./mynotes/src/assets/login-page.png)
 ### Home page:
-![Project image](./mynotes/src/assets/mynotes-login.png)
+![Project image](./mynotes/src/assets/home-page.png)
+
+## About the project 📝
 
 myNotes is a project created with the aim of putting my studies on ReactJS with NodeJS into practice. It's an individual notebook that can only be accessed via an account. With it you can create notes and edit them, as well as categorize them with tags that match the subject. Features:
 - Login and registration page
@@ -20,22 +24,49 @@ myNotes is a project created with the aim of putting my studies on ReactJS with 
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [ReactJS](https://legacy.reactjs.org/docs/getting-started.html)
 - [NodeJS](https://nodejs.org/docs/latest/api/)
+- [JWT](https://jwt.io/introduction)
+- [SQLite](https://www.sqlite.org/docs.html)
 
-## Contribute to the development of the project 💻
+## How can I use it? 💻
 
-1. Fork this repository, using the button that appears in the top right corner `fork`.
+### 1. Clone the project to your computer.
 
-To get the files onto your machine now, you clone the repository you added to your github. To do this, inside your repository there will be a `code` button where you can copy a url. Use it to run the command inside the folder you want `git clone <link copied>`.
+```bash
+$ git clone git@github.com:holices/food-explorer
+```
 
-![Url git clone](https://media.canva.com/1/image-resize/1/470_254_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9tWDBzYy9NQUYzUWJtWDBzYy8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAADmhiwncmOPyv5q7xzgdvNNL_xQt1wJzDR8gshd_n_OD&exp=1705701585&x-canva-quality=screen&csig=AAAAAAAAAAAAAAAAAAAAAEToGVhh7c9KWm-gkHDpRTa4WUPxpaIDXnEI4dAy5RWs)
+<br>
 
-2. Select the IDE of your choice, open the folder of the project in question and look for the file `index.html`, right-click and run it.
+### 2. With the project open in an IDE, navigate to the API directory and run the commands:
 
-3. Edit the code in the way you think will be best for the project, adding features, solving problems you find.
+```bash
+# Install the packages needed to run the project
+$ npm install
+```
 
-4. Make a `pull request` to the repository of the project in question and describe exactly what has changed and any action needed to test or run it.
+```bash
+# Run the database
+$ npm run dev
+```
 
-## Disclaimer and Copyright ©️
-Application developed through similar projects in the Explorer module of the @Rocketseat educational platform.
+<br>
 
-### Thank you in advance for any contribution!
+### 3. Now go back to the root directory and access the MYNOTES folder and run it:
+
+```bash
+# Install the packages needed to run the project
+$ npm install
+```
+
+```bash
+# Run the frontend
+$ npm run dev
+```
+
+<br>
+
+### 4. Now register on the login screen and you're ready to go! 🎉
+
+<br>
+
+## Thank you in advance for any contribution!
