@@ -32,7 +32,7 @@ myNotes is a project created with the aim of putting my studies on ReactJS with 
 ### 1. Clone the project to your computer.
 
 ```bash
-$ git clone git@github.com:holices/food-explorer
+$ git clone git@github.com:holices/mynotes
 ```
 
 <br>
